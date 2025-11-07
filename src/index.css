@@ -3525,7 +3525,53 @@ img {
     gap: 12px;
   }
 
+  .about-pillars,
+  .about-capabilities,
+  .about-journey,
+  .about-focus,
+  .about-cta {
+    padding: 56px 0;
+  }
+
+  .section-heading {
+    margin: 0 auto 32px;
+  }
+
+  .pillar-card,
+  .capability-card {
+    padding: 24px;
+  }
+
+  .focus-panel {
+    padding: 28px 24px;
+    gap: 24px;
+  }
+
   .about-cta__shell {
     padding: 40px 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-pillars,
+  .about-capabilities,
+  .about-journey,
+  .about-focus,
+  .about-cta {
+    padding: 48px 0;
+  }
+
+  .pillar-card,
+  .capability-card,
+  .journey-item {
+    padding: 20px;
+  }
+
+  .focus-panel {
+    padding: 24px 20px;
+  }
+
+  .focus-panel__list {
+    gap: 12px;
   }
 }
