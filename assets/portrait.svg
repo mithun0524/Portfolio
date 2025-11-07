@@ -1,0 +1,27 @@
+<svg width="340" height="420" viewBox="0 0 340 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="340" height="420" rx="2" fill="#E9EAEC"/>
+  <!-- vignette -->
+  <rect width="340" height="420" fill="url(#g)" opacity="0.16"/>
+  <!-- neck/shoulders -->
+  <path d="M85 310c20-18 45-28 85-28s65 10 85 28v54H85v-54z" fill="#D6D8DB"/>
+  <!-- shirt collar -->
+  <path d="M142 252l28 24 28-24c8 5 12 14 12 26v16H130v-16c0-12 4-21 12-26z" fill="#F0F1F3"/>
+  <!-- face/head silhouette -->
+  <path d="M108 188c0-44 28-76 62-76s62 32 62 76c0 34-18 60-44 70l-18 8-18-8c-26-10-44-36-44-70z" fill="#C7C9CC"/>
+  <!-- hair hint -->
+  <path d="M120 170c12-32 44-44 72-32 24 10 36 30 36 60 0 8-1 16-3 22-2 5-6 8-11 9-10 2-14-8-18-14-4-6-8-10-14-6-10 6-20 8-30 0-10-6-18-2-22 6-4 8-14 18-24 10-6-4-10-22-10-30 0-10 2-17 4-25z" fill="#9DA2A7"/>
+  <!-- subtle grain -->
+  <g opacity="0.25">
+    <circle cx="110" cy="210" r="1.5" fill="#B9BDC2"/>
+    <circle cx="228" cy="190" r="1.5" fill="#B9BDC2"/>
+    <circle cx="180" cy="240" r="1.5" fill="#B9BDC2"/>
+    <circle cx="200" cy="220" r="1.5" fill="#B9BDC2"/>
+    <circle cx="150" cy="225" r="1.5" fill="#B9BDC2"/>
+  </g>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#000" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
