@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import FooterNav from './FooterNav'
 
 export default function Footer() {
   const gmailComposeUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=mithun.chavan.a24%40gmail.com'
@@ -7,9 +6,6 @@ export default function Footer() {
   return (
     <footer className="site-footer" id="contact">
       <div className="site-footer__inner">
-        {/* Mobile/Tablet Navigation - Only visible on small/medium screens */}
-        <FooterNav />
-        
         <div className="site-footer__brand">
           <p className="site-footer__label">Let’s collaborate</p>
           <a href={gmailComposeUrl} target="_blank" rel="noopener noreferrer" className="site-footer__mail">mithun.chavan.a24@gmail.com</a>
