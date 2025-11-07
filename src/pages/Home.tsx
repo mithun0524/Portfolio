@@ -1,5 +1,6 @@
 import { Fragment, useEffect, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import FooterNav from '../components/FooterNav'
 
 const heroMetrics = [
   { label: 'Major GitHub projects', value: '05' },
@@ -323,6 +324,9 @@ export default function Home() {
       >
         <div className="overview-footer__background" aria-hidden="true" />
         <div className="overview-footer__inner">
+          {/* Mobile/Tablet Navigation */}
+          <FooterNav />
+          
           <div className="overview-footer__grid">
             <div className="overview-footer__headline">
               <span className="label">Let&apos;s collaborate</span>
