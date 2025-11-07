@@ -5,7 +5,6 @@ import RouteTransition from './components/RouteTransition'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
-import Experience from './pages/Experience'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
@@ -19,7 +18,6 @@ export default function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<RouteTransition><Home /></RouteTransition>} />
           <Route path="/about" element={<RouteTransition><About /></RouteTransition>} />
-          <Route path="/experience" element={<RouteTransition><Experience /></RouteTransition>} />
           <Route path="/projects" element={<RouteTransition><Projects /></RouteTransition>} />
           <Route path="/skills" element={<RouteTransition><Skills /></RouteTransition>} />
           <Route path="/contact" element={<RouteTransition><Contact /></RouteTransition>} />

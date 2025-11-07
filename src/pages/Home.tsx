@@ -77,13 +77,15 @@ const connectMenuItems = [
   },
   {
     text: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/mithun-chavan',
+    link: 'https://www.linkedin.com/in/mithun-chavan-a-8b9198254/',
   },
   {
     text: 'Resume',
     link: '/resume.pdf',
   },
 ]
+
+const gmailComposeUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=mithun.chavan.a24%40gmail.com'
 
 const getClockSnapshot = () => {
   const now = new Date()
@@ -141,7 +143,7 @@ export default function Home() {
             <a href="/resume.pdf" className="button button--primary" download>
               Download PDF
             </a>
-            <a href="mailto:mithun.chavan.a24@gmail.com" className="button button--outline">
+            <a href={gmailComposeUrl} className="button button--outline" target="_blank" rel="noopener noreferrer">
               Email Mithun
             </a>
           </div>
@@ -340,7 +342,7 @@ export default function Home() {
             <div className="overview-footer__details">
               <div className="overview-footer__contact">
                 <span className="overview-footer__caption">Contact</span>
-                <a href="mailto:mithun.chavan.a24@gmail.com">mithun.chavan.a24@gmail.com</a>
+                <a href={gmailComposeUrl} target="_blank" rel="noopener noreferrer">mithun.chavan.a24@gmail.com</a>
                 <p>Bangalore, India · IST (UTC+5:30)</p>
               </div>
               <div className="overview-footer__connect">
@@ -366,7 +368,7 @@ export default function Home() {
           <div className="overview-footer__bottom">
             <div className="overview-footer__cta">
               <span className="overview-footer__caption">Work with me</span>
-              <a href="mailto:mithun.chavan.a24@gmail.com" className="button button--primary">
+              <a href={gmailComposeUrl} className="button button--primary" target="_blank" rel="noopener noreferrer">
                 Start a project
               </a>
             </div>

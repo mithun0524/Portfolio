@@ -4,13 +4,14 @@ import ThemeToggle from './ThemeToggle'
 const links = [
   { to: '/', label: 'Overview' },
   { to: '/about', label: 'About' },
-  { to: '/experience', label: 'Experience' },
   { to: '/projects', label: 'Projects' },
   { to: '/skills', label: 'Skills' },
   { to: '/contact', label: 'Contact' },
 ]
 
 export default function Header() {
+  const gmailComposeUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=mithun.chavan.a24%40gmail.com'
+
   return (
     <header className="site-header">
       <div className="site-header__inner">
@@ -33,7 +34,7 @@ export default function Header() {
 
         <div className="site-header__actions">
           <ThemeToggle />
-          <a href="mailto:mithun.chavan.a24@gmail.com" className="site-header__cta">
+          <a href={gmailComposeUrl} className="site-header__cta" target="_blank" rel="noopener noreferrer">
             EMAIL MITHUN ↗
           </a>
         </div>

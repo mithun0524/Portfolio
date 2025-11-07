@@ -1,3 +1,5 @@
+const gmailComposeUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=mithun.chavan.a24%40gmail.com'
+
 export default function Resume() {
   return (
     <main className="page">
@@ -17,7 +19,12 @@ export default function Resume() {
         <div className="resume-download__meta">
           <p><strong>Name:</strong> Mithun Chavan A</p>
           <p><strong>Location:</strong> Bangalore, India</p>
-          <p><strong>Email:</strong> mithun.chavan.a24@gmail.com</p>
+          <p>
+            <strong>Email:</strong>{' '}
+            <a href={gmailComposeUrl} target="_blank" rel="noopener noreferrer">
+              mithun.chavan.a24@gmail.com
+            </a>
+          </p>
           <p><strong>Phone:</strong> +91 6380691574</p>
         </div>
       </section>

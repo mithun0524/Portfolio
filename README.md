@@ -2,7 +2,7 @@
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://your-portfolio-url.vercel.app)
 [![GitHub](https://img.shields.io/badge/GitHub-mithun0524-black)](https://github.com/mithun0524)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/mithun-chavan-8b9198254)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/mithun-chavan-a-8b9198254/)
 
 > Modern, animated portfolio showcasing full-stack development projects and AI integration work.
 
@@ -128,10 +128,10 @@ Update font families in the Tailwind config.
 
 ## 📞 Contact
 
-- **Email:** mithun.chavan.a24@gmail.com
+- **Email:** [mithun.chavan.a24@gmail.com](https://mail.google.com/mail/?view=cm&fs=1&to=mithun.chavan.a24%40gmail.com)
 - **Phone:** +91 6380691574
 - **GitHub:** [@mithun0524](https://github.com/mithun0524)
-- **LinkedIn:** [mithun-chavan-8b9198254](https://linkedin.com/in/mithun-chavan-8b9198254)
+- **LinkedIn:** [mithun-chavan-a-8b9198254](https://www.linkedin.com/in/mithun-chavan-a-8b9198254/)
 - **LeetCode:** [mithun0524](https://leetcode.com/mithun0524)
 
 ## 📄 License
